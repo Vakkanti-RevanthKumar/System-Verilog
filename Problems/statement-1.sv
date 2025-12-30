@@ -64,6 +64,8 @@ endmodule
               # KERNEL: before Flag = 0 0 1 1
               # KERNEL: after sum = 11100
               # KERNEL: after Flag = 0 0 1 1 1  */
+
+// https://edaplayground.com/x/9ZNq
     
   
 
