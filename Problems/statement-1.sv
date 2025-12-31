@@ -1,5 +1,8 @@
-/* Data, which is of 4-bit size. And Address variable is also 4-bit size. Now, I'm doing some flag , which is also a 4-bit size, is equal to address plus data.
-So data I have assigned as 15. Address as a 13.Now, what value will be stored in the flag?  */
+/* 
+Data, which is of 4-bit size. And Address variable is also 4-bit size. 
+Now, I'm doing some flag , which is also a 4-bit size, is equal to address plus data.
+So data I have assigned as 15. Address as a 13.Now, what value will be stored in the flag?  
+*/
 
 
 module flag_ex;
@@ -17,11 +20,14 @@ module flag_ex;
   end
 endmodule
 
-/* If we want to store the correct value into the flag, what we need to do? 
+/* 
+If we want to store the correct value into the flag, what we need to do? 
 We need to increase the size of the flag. 
-Can you increase the size of the flag using dynamic array concept? */
+Can you increase the size of the flag using dynamic array concept? 
+*/
 
-// NOTE: First, you need to declare a flag as a 4 bit. Whenever we are trying to store the 28 value in flag, it doesn't store that value. So we need to resize the array with a 5 bit.
+/* NOTE: First, you need to declare a flag as a 4 bit. Whenever we are trying to store the 28 value in flag, 
+it doesn't store that value. So we need to resize the array with a 5 bit. */
 
 module flage_ex1;
   
@@ -65,7 +71,7 @@ endmodule
               # KERNEL: after sum = 11100
               # KERNEL: after Flag = 0 0 1 1 1  */
 
-// https://edaplayground.com/x/9ZNq
+// EDA PLAYGROUND: https://edaplayground.com/x/9ZNq
     
   
 
